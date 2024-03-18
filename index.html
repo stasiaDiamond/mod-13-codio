@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+
+<body>
+    <div id="root"></div> 
+    <div id="most-recent-order"></div> 
+    <script type="text/babel" src="form.jsx"></script>
+    <script type="text/babel" src="addReact.jsx"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Forms</title>
+  </head>
+
+  <body style="margin: 1em">
+    <!-- We will put our React component inside this div. -->
+    <h2>Managed Form</h2>
+    <div id="ManagedForm"></div>
+    <hr style="margin-top: 1.75em" />
+    <h2>Unmanaged Form</h2>
+    <div id="UnmanagedForm"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script defer type="text/babel" src="./managedForm.jsx"></script>
+    <script defer type="text/babel" src="./unmanagedForm.jsx"></script>
+  </body>
+</html>
